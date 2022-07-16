@@ -1,4 +1,23 @@
 include html/head
 body
   .wrapper 
-    
+    h1.title Swiper Slider
+    .image-slider.swiper-container
+      .image-slider__wrapper.swiper-wrapper
+        <!-- Slides -->
+        .image-slider__slide.swiper-slide
+          .image-slider__image
+            img(src="@img/01.png", alt="image")
+        .image-slider__slide.swiper-slide
+          .image-slider__image
+            img(src="@img/02.png", alt="image")
+        .image-slider__slide.swiper-slide
+          .image-slider__image
+            img(src="@img/03.png", alt="image")
+        .image-slider__slide.swiper-slide
+          .image-slider__image
+            img(src="@img/04.png", alt="image")
+      .swiper-button-prev.swiper-btn
+      .swiper-button-next.swiper-btn
+      .swiper-pagination.swiper-bullet
+      .swiper-scrollbar
